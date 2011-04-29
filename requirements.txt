@@ -1,0 +1,12 @@
+django
+django-tastypie
+
+docutils
+fabric
+httplib2
+mimeparse
+south
+
+python-dateutil==1.5
+
+-e git+git://github.com/homicidewatch/django-boundaryservice.git#egg=django-boundaryservice
