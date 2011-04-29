@@ -9,4 +9,4 @@ south
 
 python-dateutil==1.5
 
--e git+git://github.com/homicidewatch/django-boundaryservice.git#egg=django-boundaryservice
+-e git+git://github.com/homicidewatch/django-boundaryservice.git@02bd53dea44f35613f8f39c7aa1d52ac805886a9#egg=django_boundaryservice-0.1.0-py2.6-dev

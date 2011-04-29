@@ -1,5 +1,5 @@
 # Django settings for dcgis project.
-import os
+import os, sys
 
 DJANGO_ROOT = os.path.abspath(os.path.dirname(__file__))
 f = lambda fn: os.path.join(DJANGO_ROOT, fn)
@@ -129,6 +129,7 @@ INSTALLED_APPS = (
 )
 
 SHAPEFILES_DIR = f('data/shapefiles')
+sys.path.append(SHAPEFILES_DIR)
 
 # A sample logging configuration. The only tangible logging
 # performed by this configuration is to send an email to
