@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE metadata SYSTEM "http://www.fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>DC Office of Planning, for the DC Board of Elections and Ethics</origin>
+				<pubdate>20020703</pubdate>
+				<title>SDE.ANC02Ply</title>
+				<geoform>vector digital data</geoform>
+				<onlink>Server=intradb; Service=dcgiswan_sde; User=sde; Version=SDE.DEFAULT</onlink>
+				<lworkcit>
+					<citeinfo>
+						<title>DC Geographic Information System DC Atlas</title>
+					</citeinfo>
+				</lworkcit>
+				<ftname Sync="TRUE">ANC02Ply</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>Advisory Neighborhood Commissions or ANC's are collections of Single Member Districts or SMD's.  There are multiple ANC's for each of the eight Wards.   The initial number of ANC codes correspond to the ward.  Three ANC's cross ward boundaries; 3C, 3G and 6D, the remaining do not.
+
+ANC's consider a wide range of policies and programs affecting their neighborhoods. These include traffic, parking, recreation, street improvements, liquor licenses, zoning, economic development, police protection, sanitation and trash collection, and the District's annual budget. No public policy area is excluded from the purview of the Advisory Neighborhood Commissions.
+
+The intent of the ANC legislation is to ensure input from an advisory board made up of the residents of the neighborhoods directly affected by government action. The ANCs are the body of government with the closest official ties to the people in a neighborhood.  ANCs present their positions and recommendations on issues to various District government agencies, the Executive Branch, and the Council. They also present testimony to independent agencies, boards and commissions, usually under rules of procedure specific to those entities. By law, the ANCs may also present their positions to Federal agencies.
+
+All DC GIS data is stored and exported in Maryland State Plane coordinates NAD 83 meters.
+
+METADATA CONTENT IS IN PROCESS OF VALIDATION AND SUBJECT TO CHANGE.</abstract>
+			<purpose>ANCs are used for the planning and management of Washington by local government agencies.  This specific data set was created for the specific purpose of printing maps of each of the various ANCs (and their associated Single Member Districts, or SMDs) on a letter-sized sheet of paper.  Boundaries of the underlying SMDs were digitized with sufficient accuracy for this purpose, and may or may not be sufficiently accurate for other purposes.</purpose>
+			<supplinf>The DC Board of Elections and Ethics (BOEE) is responsible for maintaining SMD boundaries.
+
+Please see the BOEE website @ http://www.dcboee.org for more background on ANCs.
+
+This data set was compiled by the DC Office of Planning.</supplinf>
+			<langdata>english</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>2002</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>ground condition</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress><update>As needed</update></status>
+		<spdom>
+			<bounding>
+				<westbc>
+-77.119896</westbc>
+				<eastbc>
+-76.909016</eastbc>
+				<northbc>
+38.995967</northbc>
+				<southbc>
+38.791582</southbc>
+			</bounding>
+			<dsgpoly>
+				<dsgpolyo>
+					<grngpoin>
+					</grngpoin>
+				</dsgpolyo>
+			</dsgpoly>
+			<lboundng><leftbc Sync="TRUE">389613.706914</leftbc><rightbc Sync="TRUE">407881.659635</rightbc><bottombc Sync="TRUE">124876.928359</bottombc><topbc Sync="TRUE">147558.548828</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>Advisory Neighborhood Commissions, ANC, SMD, Ward</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Washington DC, Ward</placekey>
+				<placekey>District of Columbia</placekey>
+				<placekey>DC</placekey>
+				<placekey>DC GIS</placekey>
+				<placekey>DCGIS</placekey>
+			</place>
+			<temporal>
+				<tempkey>2002</tempkey>
+			</temporal>
+		</keywords>
+		<accconst>Contact OCTO GIS. Any data obtained outside of OCTO GIS are unauthorized copies.</accconst>
+		<useconst>Acknowledgment of the District of Columbia Office of Planning.  DCOP makes no claims as to the completeness, accuracy or content of any data contained hereon, and makes no representation of any kind, including, but not limited to, the warranty of the accuracy or fitness for a  particular use, nor are any such warranties to be implied or inferred with respect to the information or data furnished herein.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntpos>GIS Coordinator</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>801 N Capitol St, NE  # 4000</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20002</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntfax>202-442-7637</cntfax>
+				<cntemail>Charlie.Richman@dc.gov</cntemail>
+				<cntinst>email</cntinst>
+				<cntorgp><cntorg>DC Office of Planning</cntorg><cntper>Charlie Richman</cntper></cntorgp><hours>8:30am - 5pm</hours></cntinfo>
+		</ptcontac>
+		<native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 3; ESRI ArcCatalog 8.2.0.700</native>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>Data believed to be complete and accurate, subject to change.</attraccr>
+		</attracc>
+		<complete>Data believed to be complete and accurate, subject to change.</complete>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<title>SMD</title>
+					</citeinfo>
+				</srccite>
+				<srcscale>SMD</srcscale>
+				<typesrc>vector</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>20020403</caldate>
+						</sngdate>
+					</timeinfo>
+				</srctime>
+			</srcinfo>
+			<procstep>
+				<procdesc>ANC boundaries are a combination of Single Member District (SMD) boundaries. SMD boundaries were digitized on-screen between the scales of 1:5000 and 1:800 and snapped to an existing planimetric base layer. Although snapped to the existing base features, the digitized boundaries are not identical to those base features. Differences are not significant at scales that allow each DMS to be plotted on a letter-sized page, but differences may become apparent when zoomed in further.
+
+SMD boundaries follow the legal boundary descriptions from the DC Council and Board of Elections and Ethics.
+
+Gottlieb Simon (ANC staff) originally created boundaries for SMDs and ANCs reflecting redistricting using Atlas GIS and a TIGER/line base map. This product had important limitations because the TIGER/line base was not up to date, contained inaccurate and sometimes incorrect street data, and did not overlay properly over the other map data sets used by the District.
+
+On a quick-turnaround basis, the Office of Planning created a set of SMD/ANC boundaries using ArcGIS 8.1 and a DC GIS planimetric base map. The design goal for this edition of these boundaries was not to create a topologically-correct product that overlaid precisely atop the corresponding planimetric features. Instead, it was to create boundaries that were of sufficient accuracy to allow rapid creation of 8 ½ by 11 paper maps for each of the various SMDs and ANCs.
+
+An ArcGIS 8.1 snap environment was used to snap to underlying features in the DC GIS snapbase layer. After a quick manual process to snap the TIGER-based boundaries to the corresponding planimetric boundaries, OP held a series of working sessions with BOEE, ANC, and Council staff to review each boundary against the appropriate legal description. Where needed, mapped boundaries were adjusted to fit legal descriptions using the "Shared Edit Tool" and the snapping environment. In many instances, this process highlighted inconsistencies in the legal descriptions, and BOEE and ANC staff created technical amendments as necessary to amend the defining legislation.
+
+This manual editing process of snapping boundaries to features in the snapbase layer did not produce boundaries that were identical to the underlying features, but resulted merely in boundaries that shared selected vertices with the underlying features. At the design scales for this product, this difference is not visible on printed maps. These files, however, were not suitable for use in automated processes for developing lists of addresses in each SMD by overlay with street data.
+
+After these files were transmitted to OCTO, one erratum was discovered and corrected. Thereafter, OCTO employed Michael Baker Corporation to conflate the SMD boundaries geodatabase to the snapbase GIS file. Michael Baker conducted the conflation effort, but consulted OCTO when there was a question with SMD boundary location. Since OCTO did not conduct the Phase 1 effort, and Michael Baker did not have the legal text, the generic rule was to conflate to the nearest snapbase when there was a question.
+
+Finally, the SMD layer was updated and dissolved into the ANC layer.</procdesc>
+				<procdate>20020703</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>D.C. Office of the Chief Technology Officer</cntorg>
+							<cntper>GIS Coordinator</cntper>
+						</cntorgp>
+						<cntaddr>
+							<address>441 4th St NW, Suite 930 South</address>
+							<city>Washington</city>
+							<state>DC</state>
+							<postal>20001</postal>
+							<addrtype>mailing and physical address</addrtype><country>USA</country></cntaddr>
+						<cntfax>(202) 727-5660</cntfax>
+						<cntemail>dcgis@dc.gov</cntemail>
+						<hours>8:30am - 5pm</hours>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Quality Control:
+Step 1 - Initial Check against prior edition
+The Office of Planning conducted an initial quality check that compared the updated boundaries to those originally delivered to OCTO. Each SMD was reviewed for anomalies, and flagged for future review with council staff and the legal text.
+
+Step 2 - Detailed review with Edward Elders of Council Member Mendelson's staff
+OP staff reviewed those areas with Edward Elders of Council Member Mendelson's staff and the controlling legal text. The product of that review is a shapefile that is to be used as a guide for editing the final SMD boundary geodatabase. The SMD_edit_line is only a guide. Edits to the SMD geodatabase should use the snapbase where the SMD_edit_line follows snapbase features. Where the SMD_edit_line does not follow a snapbase feature, the exact path of the SMD_edit_line should be followed. Each line segment has attributes describing how edits should be conducted.
+
+The attributed SMD_edit_line is being transmitted to OCTO for use in editing the final SMD boundary geodatabase.</procdesc>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>D.C. Office of the Chief Technology Officer</cntorg>
+							<cntper>GIS Coordinator</cntper>
+						</cntorgp>
+						<cntaddr>
+							<address>441 4th St NW</address>
+							<city>Washington</city>
+							<state>DC</state>
+							<postal>20001</postal>
+						</cntaddr>
+						<cntfax>(202) 727-5660</cntfax>
+						<cntemail>dcgis@dc.gov</cntemail>
+						<hours>Regular business hours</hours>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>C:\TEMP\xml2FE.tmp</srcused>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>c:\temp\xmlB.tmp</srcused>
+			</procstep>
+			<procstep><proccont><cntinfo><cntorgp><cntorg>OCTO</cntorg><cntper>GIS Coordinator</cntper></cntorgp><cntfax>202-727-5660</cntfax><cntemail>dcgis@dc.gov</cntemail><hours>Regular business hours</hours></cntinfo></proccont><procdesc>Through the comparison of 2000 ward, 2002 ANC, 2002 SMD, and the snapbase features, OCTO staff performed several edits to align these layers.  In this effort, staff corrected six issues.</procdesc><procdate>3/20/03</procdate></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">C:\OCTOGIS\Data\BOEE\anc02ply</srcused><date Sync="TRUE">20030617</date><time Sync="TRUE">14563600</time></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="ANC02Ply">
+				<sdtstype>G-polygon</sdtstype>
+				<ptvctcnt>37</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="ANC02Ply"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polygon</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">37</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.000032</absres>
+						<ordres>0.000032</ordres>
+					</coordrep>
+					<plandu>meters</plandu>
+				</planci>
+				<gridsys><gridsysn>State Plane Coordinate System</gridsysn><spcs><spcszone Sync="TRUE">1900</spcszone><lambertc><stdparll Sync="TRUE">38.300000</stdparll><stdparll Sync="TRUE">39.450000</stdparll><longcm Sync="TRUE">-77.000000</longcm><latprjo Sync="TRUE">37.666667</latprjo><feast Sync="TRUE">400000.000000</feast><fnorth Sync="TRUE">0.000000</fnorth></lambertc></spcs></gridsys></planar>
+			<geodetic>
+				<horizdn>North American Datum of 1983</horizdn>
+				<ellips>Geodetic Reference System 80</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_StatePlane_Maryland_FIPS_1900</projcsn></cordsysn></horizsys>
+		<vertdef>
+			<altsys>
+				<altres>1.000000</altres>
+				<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed Name="ANC02Ply">
+			<enttyp>
+				<enttypl>
+SDE.ANC02Ply</enttypl>
+				<enttypd>DC Template</enttypd>
+				<enttypds>DCOP</enttypds>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">37</enttypc></enttyp>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>OBJECTID</attrlabl>
+				<attrdef>Object ID</attrdef>
+				<attrdefs>DCGIS</attrdefs>
+				<attalias Sync="TRUE">OBJECTID</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">20</attwidth></attr>
+			<attr>
+				<attrlabl>GIS_ID</attrlabl>
+				<attrdef>Sequential OCTO-GIS number</attrdef>
+				<attalias Sync="TRUE">GIS_ID</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">16</attwidth></attr>
+			<attr>
+				<attrdef>ANC identifier</attrdef>
+				<attrdomv>
+				</attrdomv>
+				<attalias Sync="TRUE">ANC_ID</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><attrlabl>ANC_ID</attrlabl></attr>
+			<attr>
+				<attrlabl>WEB_URL</attrlabl>
+				<attrdef>Web site url</attrdef>
+				<attrdomv>
+				</attrdomv>
+				<attalias Sync="TRUE">WEB_URL</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">100</attwidth></attr>
+			<attr>
+				<attrlabl>NAME</attrlabl>
+				<attrdef>ANC Name</attrdef>
+				<attrdomv>
+				</attrdomv>
+				<attalias Sync="TRUE">NAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">16</attwidth></attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>D.C. Office of the Chief Technology Officer</cntorg>
+					<cntper>GIS Data Coordinator</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>441 4th St NW, Suite 930 south</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20001</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntfax>(202) 727-5660</cntfax>
+				<cntemail>dcgis@dc.gov</cntemail>
+				<hours>8:30am - 5pm</hours>
+			</cntinfo>
+		</distrib>
+		<resdesc>Downloadable Data</resdesc>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>ACCESS2000</formname>
+					<filedec>no compression applied</filedec>
+					<transize>0.031</transize>
+					<dssize Sync="TRUE">0.641</dssize></digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>http://www.draft.dcgis.com/data_catalogue.asp</networkr>
+							</networka>
+						</computer>
+						<accinstr>Local area network</accinstr>
+					</onlinopt>
+				</digtopt>
+			</digform>
+			<ordering>Most DC GIS datasets can be downloaded from "http://dcgis.dc.gov" on the data center page.  Orders can also be made by contacting OCTO GIS at "dcgis@dc.gov", especially for datasets not available for download.</ordering></stdorder>
+		<distliab>DCOP and OCTO make no claims as to the completeness, accuracy or content of any data contained hereon, and makes no representation of any kind, including, but not limited to, the warranty of the accuracy or fitness for a particular use, nor are any such warranties to be implied or inferred, with respect to the information or data furnished herein.  Subject to terms and conditions of the Memorandum of Agreement. Memorandum of Agreement must have authorized signature.</distliab></distinfo>
+	<metainfo>
+		<metd>20030301</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>D.C. Office of the Chief Technology Officer</cntorg>
+					<cntper>GIS Data Coordinator</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>441 4th St NW, Suite 930 South</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20001</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntfax>(202) 727-5660</cntfax>
+				<cntemail>dcgis@dc.gov</cntemail>
+				<hours>8:30am - 5pm</hours>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metac>None.</metac>
+		<metuc>None.</metuc>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns><metrd>01/07/04</metrd></metainfo>
+	<dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 4; ESRI ArcCatalog 8.3.0.800</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">ANC02Ply</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">389613.706914</westBL><eastBL Sync="TRUE">407881.659635</eastBL><northBL Sync="TRUE">147558.548828</northBL><southBL Sync="TRUE">124876.928359</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-77.119896</westBL><eastBL Sync="TRUE">-76.909016</eastBL><northBL Sync="TRUE">38.995967</northBL><southBL Sync="TRUE">38.791582</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\OCTO-AWLLX69A6L\C$\OCTOGIS\DataRequest\Data\Political\ANC02Ply.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.641</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">NAD_1983_StatePlane_Maryland_FIPS_1900</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="ANC02Ply"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">37</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><Esri><SyncDate>20040106</SyncDate><SyncTime>13483400</SyncTime><ModDate>20040106</ModDate><ModTime>13490000</ModTime><MetaID>{28CB1FC7-6337-4F94-BF5D-848EE3B543CA}</MetaID><CreaDate>20030617</CreaDate><CreaTime>14563600</CreaTime><SyncOnce>FALSE</SyncOnce></Esri><mdDateSt Sync="TRUE">20040106</mdDateSt></metadata>

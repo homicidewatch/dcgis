@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<lworkcit>
+					<citeinfo>
+						<origin>DC GIS</origin>
+						<title>DC Geographic Information System</title>
+						<geoform>vector digital data</geoform>
+					</citeinfo>
+				</lworkcit>
+				<ftname Sync="TRUE">DCGIS.ZipCodePly</ftname>
+				<pubinfo>
+					<publish>DC GIS</publish>
+				</pubinfo>
+				<origin>US Postal Service</origin><pubdate>20090326</pubdate><onlink>http://dcatlas.dcgis.dc.gov/catalog/download.asp?downloadName=ZipCodePly&amp;downloadTYPE=ESRI</onlink><onlink>http://dcatlas.dcgis.dc.gov/catalog/download.asp?downloadName=ZipCodePly&amp;downloadTYPE=KMZ</onlink><title>Zip Codes (ZipCodePly)</title></citeinfo>
+		</citation>
+		<descript>
+			<purpose>This data is used for the planning and management of Washington, D.C. by local government agencies.</purpose>
+			<supplinf>The five-digit ZIP (Zone Improvement Plan) Code was introduced to the public July 1, 1963, and was viewed as a positive step for improving the productivity of mail distribution during a period of escalating mail volume and expanding delivery stops.</supplinf>
+			<langdata Sync="TRUE">en</langdata>
+			<abstract>Zip Codes (5-digit). The dataset polygons represent location and attributes of zip codes, created as part of the DC Geographic Information System (DC GIS) for the D.C. Office of the Chief Technology Officer (OCTO) and participating D.C. government agencies.
+
+Zip Codes were identified from public records (US Postal Service) and created selecting arcs from the street centerlines and vector property map.
+
+All DC GIS data is stored and exported in Maryland State Plane coordinates NAD 83 meters.
+
+METADATA CONTENT IS IN PROCESS OF VALIDATION AND SUBJECT TO CHANGE.</abstract></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>20080315</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>In work</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-77.119896</westbc>
+				<eastbc Sync="TRUE">-76.909016</eastbc>
+				<northbc Sync="TRUE">38.995969</northbc>
+				<southbc Sync="TRUE">38.791582</southbc>
+			</bounding>
+			<dsgpoly>
+				<dsgpolyo>
+					<grngpoin>
+					</grngpoin>
+				</dsgpolyo>
+			</dsgpoly>
+			<lboundng>
+				<leftbc Sync="TRUE">389613.706500</leftbc>
+				<rightbc Sync="TRUE">407881.659500</rightbc>
+				<bottombc Sync="TRUE">124876.928000</bottombc>
+				<topbc Sync="TRUE">147558.733000</topbc>
+			</lboundng>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>none</themekt>
+				<themekey>boundaries</themekey><themekey> society</themekey><themekey> Postal Service</themekey><themekey> location</themekey><themekey> Zip Codes</themekey><themekey> Five Digit Zip Codes</themekey><themekey> Postal Service</themekey></theme>
+			<place>
+				<placekey>Washington, D.C.</placekey>
+				<placekey>District of Columbia</placekey>
+				<placekey>DC</placekey>
+				<placekey>DC GIS</placekey>
+				<placekey>DCGIS</placekey>
+			</place>
+		</keywords>
+		<accconst>Contact OCTO GIS. Any data obtained outside of OCTO GIS are unauthorized copies.</accconst>
+		<useconst>Data cannot be redistributed in any manner without written authorization.  OCTO makes no claims as to the completeness, accuracy or content of any data contained hereon, and makes no representation of any kind, including, but not limited to, the warranty of the accuracy or fitness for a  particular use, nor are any such warranties to be implied or inferred with respect to the information or data furnished herein.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>D.C. Office of the Chief Technology Officer</cntorg>
+					<cntper>GIS Data Coordinator</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>441 4th St NW, Suite 930 South</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20001</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntfax>(202) 727-5660</cntfax>
+				<cntemail>dcgis@dc.gov</cntemail>
+				<hours>8:30 am - 5:00 pm</hours>
+			</cntinfo>
+		</ptcontac>
+		<datacred>US Postal Service</datacred>
+		<native Sync="TRUE">Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 4; ESRI ArcCatalog 9.2.6.1500</native>
+		<natvform Sync="TRUE">SDE Feature Class</natvform>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>Data believed to be complete and accurate as of the time period cited. Subject to change.  Not validated by source and/or responsible agency.
+
+Staff compared the MAR address point to the Zip Code polygons noting the following errors and discrepancies:
+
+1) address points that do not fall in the correct zipcode
+2) zipcode polygons that did not follow designated features, such as street centerlines, alleys, and vector property lot lines.
+
+Staff also used the USPS website to research and verify zip codes by address.  Topology was used to ensure no overlaps or gaps existed between zip codes. Staff ensured the new unique zip codes were correctly assigned and mapped. </attraccr>
+		</attracc>
+		<logic>Not validated by source and/or responsible agency.</logic>
+		<complete>Data believed to be complete and accurate, subject to change. Digital version compared with original source data for accuracy and completeness. In process of validation by source and/or responsible agency.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>The snapbase and vector property map data was used to construct most of the zip codes.  Planimetrics compose most of the snapbase.  They were captured at a 1:1000 map scale accuracy (well defined points with .83 ft).  Since the vector property map is best-fitted to the planimetrics, it is close but not as accurate as the planimetrics.</horizpar>
+			</horizpa>
+			<vertacc>
+				<vertaccr>N/A</vertaccr>
+			</vertacc>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>US Postal Service</origin>
+						<pubdate>2001</pubdate>
+						<title>Zip Code directory</title>
+					</citeinfo>
+				</srccite>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Zip Code directory</srccitea>
+				<srccontr>attributes</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Spatial Systems Associates</origin>
+						<pubdate>2001</pubdate>
+						<title>DC Property View</title>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>shapefile</typesrc>
+				<srccitea>DCPV</srccitea>
+				<srccontr>boundaries</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>Zip code lines were identified from existing shapefiles from Spatial Systems Associates. These were intersected with the SIS street center line, transferring attributes to individual arcs. Some arcs remained unattributed, since they crossed zip code boundaries. These arcs were hand attributed and verified from the published USPS zip code list. Polygons were then created from these lines.
+
+Attribute data was provided by United States Postal Service publications and an additional URL from the EPA Enviromapper website.</procdesc>
+				<procdate>20010806</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>D.C. Office of the Chief Technology Officer</cntorg>
+							<cntper>GIS Data Coordinator</cntper>
+						</cntorgp>
+						<cntaddr>
+							<addrtype>mailing and physical address</addrtype>
+							<address>441 4th St NW, Suite 930 South</address>
+							<city>Washington</city>
+							<state>DC</state>
+							<postal>20001</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>(202) 727-1761</cntvoice>
+						<cntfax>(202) 727-5660</cntfax>
+						<cntemail>dcgis@dc.gov</cntemail>
+						<hours>8:30 am - 5:00 pm</hours>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>The Address points from the Master Address Repository (MAR) were matched against the US Postal Service Address Information System (AIS) Zip+4 data product.  The Zip+4 data contained 5 digit zip codes for known postal addresses in DC.
+
+Staff developed a custom visual basic, ArcObjects program to assign the addresses in the MAR with the 5 digit Zip Code from AIS Zip+4 data, matching on address.  The program successfully matched and assigned 91% of the addresses in the MAR.   
+
+Zip codes were originally created using centerlines.  Using the MAR points with assigned zip codes, staff recreated and moved the zip code boundaries where zip codes occurred on both sides of the streets.   The zipcode boundaries were snapped to the snapbase, alleyways, and vector property lot lines.  New unique zip codes were added to the original zip code boundaries.  PO box zip codes were created where the respective post office is located.
+
+After QA/QC, staff updated zip code boundaries based on error resolution and research findings.  Several new unique zip code polygons were created and deleted as well.</procdesc>
+				<procdate>8/01/2005</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Office of the Chief Technology Officer</cntorg>
+							<cntper>GIS Data Coordinator</cntper>
+						</cntorgp>
+						<cntaddr>
+							<addrtype>mailing and physical address</addrtype>
+							<address>441 4th st NW, Suite 930 South</address>
+							<city>Washington</city>
+							<state>DC</state>
+							<postal>20001</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntfax>202-727-5660</cntfax>
+						<cntemail>dcgis@dc.gov</cntemail>
+						<hours>8:30am - 5:30pm</hours>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>US Postal Service</origin>
+						<pubdate>2005</pubdate>
+						<title>Address Information Systems Zip + 4 by State: District of Columbia</title>
+						<geoform>spreadsheet</geoform>
+						<onlink>http://www.usps.com/</onlink>
+					</citeinfo>
+				</srccite>
+				<typesrc>database</typesrc>
+				<srccitea>Zip + 4 by State</srccitea>
+				<srccontr>location</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">E:\DCGISDATA_WORKSPACE\USPS\ZipCodePly_old.shp.xml</srcused>
+				<date Sync="TRUE">20060831</date>
+				<time Sync="TRUE">09504700</time>
+			</procstep>
+			<procstep>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>GIS Data Coordinator</cntper>
+							<cntorg>Office of the Chief Technology Officer</cntorg>
+						</cntperp>
+						<cntaddr>
+							<addrtype>mailing and physical address</addrtype>
+							<address>441 4th St NW, Suite 930 South</address>
+							<city>Washington</city>
+							<state>DC</state>
+							<postal>20001</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntfax>202-727-5660</cntfax>
+						<cntemail>dcgis@dc.gov</cntemail>
+						<hours>8:30am - 5:30pm</hours>
+					</cntinfo>
+				</proccont>
+				<procdesc>Medicaid recipient and uninsured population data was added from data provided by the DC Department of Mental Health.</procdesc>
+				<procdate>08/30/06</procdate>
+			</procstep>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>DC Department of Mental Health</origin>
+						<pubdate>2005</pubdate>
+						<title>Medicaid Recipients and Uninsured Population</title>
+						<onlink>http://dmh.dc.gov</onlink>
+					</citeinfo>
+				</srccite>
+				<typesrc>database</typesrc>
+				<srccitea>DC Department of Mental Health</srccitea>
+				<srccontr>attribution</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">C:\temp\ZipCodePly.xml</srcused>
+				<date Sync="TRUE">20060831</date>
+				<time Sync="TRUE">17375300</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Dataset copied.</procdesc>
+				<srcused Sync="TRUE">Server=10.2.11.14; Service=5151; User=sde; Version=SDE.DEFAULT</srcused>
+				<date Sync="TRUE">20061010</date>
+				<time Sync="TRUE">20394500</time>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\temp\zip.xml</srcused><date Sync="TRUE">20080313</date><time Sync="TRUE">14193500</time></procstep><procstep><proccont><cntinfo><cntorgp><cntorg>OCTO</cntorg></cntorgp></cntinfo></proccont><procdesc>Staff obtained a list of zip codes from the US Postal Services and updated the zip code layer.  For unique zip codes, those assigned to buildings, agencies, etc, staff used the USPS website and web research to determine where the zip code was located. If the USPS website indicated that an address had a unique zip code as its primary zip code, the bulding polygon containing the address point was captured. If the unique zip code was not the primary zip code, a polygon was drawn inside the building polygon.</procdesc><procdate>20080315</procdate></procstep><procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">W:\DCGISDATA_WORKSPACE\usps\ZipCodePly.shp.xml</srcused><date Sync="TRUE">20080313</date><time Sync="TRUE">15281200</time></procstep><procstep><procdesc>Merged zip codes 20336 and 20332 with 20032.  Resolved topology errors.</procdesc><date Sync="TRUE">20090318</date><time Sync="TRUE">14082400</time><proccont><cntinfo><cntorgp><cntorg>OCTO</cntorg></cntorgp></cntinfo></proccont><procdate>20090325</procdate></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">Server=dcgiscentral.in.dc.gov; Service=5151; User=dcgis_user; Version=SDE.DEFAULT</srcused><date Sync="TRUE">20090512</date><time Sync="TRUE">16162800</time></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="DCGIS.ZipCodePly">
+				<sdtstype Sync="TRUE">G-polygon</sdtstype>
+				<ptvctcnt Sync="TRUE">0</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="DCGIS.ZipCodePly">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<efeageom Sync="TRUE">Polygon</efeageom>
+				<esritopo Sync="TRUE">FALSE</esritopo>
+				<efeacnt Sync="TRUE">0</efeacnt>
+				<spindex Sync="TRUE">TRUE</spindex>
+				<linrefer Sync="TRUE">FALSE</linrefer>
+			</esriterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.000125</absres>
+						<ordres Sync="TRUE">0.000125</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">meters</plandu>
+				</planci>
+				<gridsys><gridsysn Sync="TRUE">State Plane Coordinate System 1983</gridsysn><spcs><spcszone Sync="TRUE">1900</spcszone><lambertc><stdparll Sync="TRUE">38.300000</stdparll><stdparll Sync="TRUE">39.450000</stdparll><longcm Sync="TRUE">-77.000000</longcm><latprjo Sync="TRUE">37.666667</latprjo><feast Sync="TRUE">400000.000000</feast><fnorth Sync="TRUE">0.000000</fnorth></lambertc></spcs></gridsys></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn>
+				<geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+				<projcsn Sync="TRUE">NAD_1983_StatePlane_Maryland_FIPS_1900</projcsn>
+			</cordsysn>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altres Sync="TRUE">1.000000</altres>
+				<altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed Name="DCGIS.ZipCodePly">
+			<attr>
+				<attrlabl Sync="TRUE">TYPE</attrlabl>
+				<attalias Sync="TRUE">TYPE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">25</attwidth>
+				<attrdef>Zip code type</attrdef>
+			</attr>
+			<enttyp>
+				<enttypl Sync="TRUE">DCGIS.ZipCodePly</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+				<enttypc Sync="TRUE">0</enttypc>
+			</enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attalias Sync="TRUE">Shape</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attwidth Sync="TRUE">0</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ZIPCODE</attrlabl>
+				<attalias Sync="TRUE">ZIPCODE</attalias>
+				<attrtype Sync="TRUE">Number</attrtype>
+				<attwidth Sync="TRUE">9</attwidth>
+				<attrdef>Zip Code value</attrdef>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">GIS_ID</attrlabl>
+				<attalias Sync="TRUE">GIS_ID</attalias>
+				<attrtype Sync="TRUE">Number</attrtype>
+				<attwidth Sync="TRUE">9</attwidth>
+				<attrdef>OCTO GIS sequential identifier</attrdef>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">OBJECTID</attrlabl>
+				<attalias Sync="TRUE">OBJECTID</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">250</attwidth>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">EPA_URL</attrlabl>
+				<attalias Sync="TRUE">EPA_URL</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">25</attwidth>
+				<attrdef>EPA web link url with zip code map</attrdef>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NAME</attrlabl>
+				<attalias Sync="TRUE">NAME</attalias>
+				<attrtype Sync="TRUE">Float</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<attrdef>Name of feature or agency the Zip Code represents.</attrdef>
+				<atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl Sync="TRUE">SHAPE</attrlabl>
+				<attalias Sync="TRUE">Shape</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">254</attwidth>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr><attrlabl Sync="TRUE">MEDICAID_RECIPIENT</attrlabl><attalias Sync="TRUE">MEDICAID_RECIPIENT</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">UNINSURED_POPULATION</attrlabl><attalias Sync="TRUE">UNINSURED_POPULATION</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr>
+				<attrlabl Sync="TRUE">WEB_URL</attrlabl>
+				<attalias Sync="TRUE">WEB_URL</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">16</attwidth>
+				<attrdef>Web Link URL</attrdef>
+			</attr>
+			<attr><attrlabl Sync="TRUE">SHAPE.AREA</attrlabl><attalias Sync="TRUE">SHAPE.AREA</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SHAPE.LEN</attrlabl><attalias Sync="TRUE">SHAPE.LEN</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr></detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>D.C. Office of the Chief Technology Officer</cntorg>
+					<cntper>GIS Data Coordinator</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>441 4th St NW, Suite 930 South</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20001</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(202) 727-1761</cntvoice>
+				<cntfax>(202) 727-5660</cntfax>
+				<cntemail>dcgis@dc.gov</cntemail>
+				<hours>8:30 am - 5:00 pm</hours>
+				<cntinst>dcgis@dc.gov</cntinst>
+			</cntinfo>
+		</distrib>
+		<resdesc>Downloadable Data</resdesc>
+		<distliab>OCTO makes no claims as to the completeness, accuracy or content of any data contained hereon, and makes no	representation of any kind, including, but not limited to, the warranty of the accuracy or fitness for a particular use, nor are any such warranties to be implied or inferred, with respect to the information or data furnished herein. Subject to terms and conditions of the Memorandum of Agreement. Memorandum of Agreement must have authorized signature.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize>0.668</transize>
+					<dssize Sync="TRUE">0.719</dssize>
+				</digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+							</networka>
+						</computer>
+					</onlinopt>
+				</digtopt>
+			</digform>
+			<ordering>Contact OCTO GIS.</ordering>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20090330</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>D.C. Office of the Chief Technology Officer</cntorg>
+					<cntper>GIS Data Coordinator</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>441 4th St NW, Suite 930 South</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20001</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(202) 727-1761</cntvoice>
+				<cntfax>(202) 727-5660</cntfax>
+				<cntemail>dcgis@dc.gov</cntemail>
+				<hours>8:30 am - 5:00 pm</hours>
+				<cntinst>email</cntinst>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metac>None.</metac>
+		<metuc>None.</metuc>
+		<langmeta Sync="TRUE">en</langmeta>
+		<metrd>02/03/06</metrd>
+		<metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri>
+		<CreaDate>20090512</CreaDate>
+		<CreaTime>16162800</CreaTime>
+		<SyncOnce>FALSE</SyncOnce>
+		<SyncDate>20090330</SyncDate>
+		<SyncTime>23120400</SyncTime>
+		<ModDate>20090330</ModDate>
+		<ModTime>23120400</ModTime>
+		<PublishStatus>Published</PublishStatus><DataProperties><lineage><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20080314" Time="212536">CopyFeatures E:\DataLoadMarch\USPS.mdb\ZipCodePly "Database Connections\vector_data_dcgiscentral.sde\DCGIS.ZipCodePly" DCGISDBP_S 10000 0 0</Process><Process Name="FeatureClassToFeatureClass_1" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20090318" Time="141940">FeatureClassToFeatureClass C:\DC_Gis\DataUpdates\ZipCodes.mdb\ZipCodePlyOLD C:\DC_Gis\DataUpdates\ZipCodes.mdb\Topology ZipCodePlyEdit # "ZIPCODE ZIPCODE true true false 4 Long 0 0 ,First,#,C:\DC_Gis\DataUpdates\ZipCodes.mdb\ZipCodePlyOLD,ZIPCODE,-1,-1;GIS_ID GIS_ID true true false 16 Text 0 0 ,First,#,C:\DC_Gis\DataUpdates\ZipCodes.mdb\ZipCodePlyOLD,GIS_ID,-1,-1;WEB_URL WEB_URL true true false 254 Text 0 0 ,First,#,C:\DC_Gis\DataUpdates\ZipCodes.mdb\ZipCodePlyOLD,WEB_URL,-1,-1;EPA_URL EPA_URL true true false 250 Text 0 0 ,First,#,C:\DC_Gis\DataUpdates\ZipCodes.mdb\ZipCodePlyOLD,EPA_URL,-1,-1;NAME NAME true true false 75 Text 0 0 ,First,#,C:\DC_Gis\DataUpdates\ZipCodes.mdb\ZipCodePlyOLD,NAME,-1,-1;TYPE TYPE true true false 25 Text 0 0 ,First,#,C:\DC_Gis\DataUpdates\ZipCodes.mdb\ZipCodePlyOLD,TYPE,-1,-1;UNINSURED_POPULATION UNINSURED_POPULATION true true false 8 Double 0 0 ,First,#,C:\DC_Gis\DataUpdates\ZipCodes.mdb\ZipCodePlyOLD,UNINSURED_POPULATION,-1,-1;MEDICAID_RECIPIENT MEDICAID_RECIPIENT true true false 8 Double 0 0 ,First,#,C:\DC_Gis\DataUpdates\ZipCodes.mdb\ZipCodePlyOLD,MEDICAID_RECIPIENT,-1,-1;GLOBALID GLOBALID false false true 38 Long 0 0 ,First,#,C:\DC_Gis\DataUpdates\ZipCodes.mdb\ZipCodePlyOLD,GLOBALID,-1,-1;SHAPE_Length SHAPE_Length false true true 8 Double 0 0 ,First,#,C:\DC_Gis\DataUpdates\ZipCodes.mdb\ZipCodePlyOLD,SHAPE_Length,-1,-1;SHAPE_Area SHAPE_Area false true true 8 Double 0 0 ,First,#,C:\DC_Gis\DataUpdates\ZipCodes.mdb\ZipCodePlyOLD,SHAPE_Area,-1,-1" # C:\DC_Gis\DataUpdates\ZipCodes.mdb\Topology\ZipCodePlyEdit</Process><Process Name="FeatureClassToFeatureClass_2" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20090318" Time="153314">FeatureClassToFeatureClass C:\DC_Gis\DataUpdates\ZipCodes.mdb\Topology\ZipCodePlyEdit C:\DC_Gis\DataUpdates\ZipCodes.mdb ZipCodePlyTemp # "ZIPCODE ZIPCODE true true false 4 Long 0 0 ,First,#,C:\DC_Gis\DataUpdates\ZipCodes.mdb\Topology\ZipCodePlyEdit,ZIPCODE,-1,-1;GIS_ID GIS_ID true true false 16 Text 0 0 ,First,#,C:\DC_Gis\DataUpdates\ZipCodes.mdb\Topology\ZipCodePlyEdit,GIS_ID,-1,-1;WEB_URL WEB_URL true true false 254 Text 0 0 ,First,#,C:\DC_Gis\DataUpdates\ZipCodes.mdb\Topology\ZipCodePlyEdit,WEB_URL,-1,-1;EPA_URL EPA_URL true true false 250 Text 0 0 ,First,#,C:\DC_Gis\DataUpdates\ZipCodes.mdb\Topology\ZipCodePlyEdit,EPA_URL,-1,-1;NAME NAME true true false 75 Text 0 0 ,First,#,C:\DC_Gis\DataUpdates\ZipCodes.mdb\Topology\ZipCodePlyEdit,NAME,-1,-1;TYPE TYPE true true false 25 Text 0 0 ,First,#,C:\DC_Gis\DataUpdates\ZipCodes.mdb\Topology\ZipCodePlyEdit,TYPE,-1,-1;UNINSURED_POPULATION UNINSURED_POPULATION true true false 8 Double 0 0 ,First,#,C:\DC_Gis\DataUpdates\ZipCodes.mdb\Topology\ZipCodePlyEdit,UNINSURED_POPULATION,-1,-1;MEDICAID_RECIPIENT MEDICAID_RECIPIENT true true false 8 Double 0 0 ,First,#,C:\DC_Gis\DataUpdates\ZipCodes.mdb\Topology\ZipCodePlyEdit,MEDICAID_RECIPIENT,-1,-1;GLOBALID GLOBALID false false true 38 Long 0 0 ,First,#,C:\DC_Gis\DataUpdates\ZipCodes.mdb\Topology\ZipCodePlyEdit,GLOBALID,-1,-1;Shape_Length Shape_Length false true true 8 Double 0 0 ,First,#,C:\DC_Gis\DataUpdates\ZipCodes.mdb\Topology\ZipCodePlyEdit,Shape_Length,-1,-1;Shape_Area Shape_Area false true true 8 Double 0 0 ,First,#,C:\DC_Gis\DataUpdates\ZipCodes.mdb\Topology\ZipCodePlyEdit,Shape_Area,-1,-1" # C:\DC_Gis\DataUpdates\ZipCodes.mdb\ZipCodePlyTemp</Process><Process Name="FeatureClassToFeatureClass_3" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20090318" Time="154708">FeatureClassToFeatureClass C:\DC_Gis\DataUpdates\ZipCodesEdits.mdb\ZipCodePlyTemp C:\DC_Gis\DataUpdates\ZipCodesUpdate.mdb ZipCodePly # "ZIPCODE ZIPCODE true true false 4 Long 0 0 ,First,#,C:\DC_Gis\DataUpdates\ZipCodesEdits.mdb\ZipCodePlyTemp,ZIPCODE,-1,-1;GIS_ID GIS_ID true true false 16 Text 0 0 ,First,#,C:\DC_Gis\DataUpdates\ZipCodesEdits.mdb\ZipCodePlyTemp,GIS_ID,-1,-1;WEB_URL WEB_URL true true false 254 Text 0 0 ,First,#,C:\DC_Gis\DataUpdates\ZipCodesEdits.mdb\ZipCodePlyTemp,WEB_URL,-1,-1;EPA_URL EPA_URL true true false 250 Text 0 0 ,First,#,C:\DC_Gis\DataUpdates\ZipCodesEdits.mdb\ZipCodePlyTemp,EPA_URL,-1,-1;NAME NAME true true false 75 Text 0 0 ,First,#,C:\DC_Gis\DataUpdates\ZipCodesEdits.mdb\ZipCodePlyTemp,NAME,-1,-1;TYPE TYPE true true false 25 Text 0 0 ,First,#,C:\DC_Gis\DataUpdates\ZipCodesEdits.mdb\ZipCodePlyTemp,TYPE,-1,-1;UNINSURED_POPULATION UNINSURED_POPULATION true true false 8 Double 0 0 ,First,#,C:\DC_Gis\DataUpdates\ZipCodesEdits.mdb\ZipCodePlyTemp,UNINSURED_POPULATION,-1,-1;MEDICAID_RECIPIENT MEDICAID_RECIPIENT true true false 8 Double 0 0 ,First,#,C:\DC_Gis\DataUpdates\ZipCodesEdits.mdb\ZipCodePlyTemp,MEDICAID_RECIPIENT,-1,-1;GLOBALID GLOBALID false false true 38 Long 0 0 ,First,#,C:\DC_Gis\DataUpdates\ZipCodesEdits.mdb\ZipCodePlyTemp,GLOBALID,-1,-1;Shape_Length Shape_Length false true true 8 Double 0 0 ,First,#,C:\DC_Gis\DataUpdates\ZipCodesEdits.mdb\ZipCodePlyTemp,Shape_Length,-1,-1;Shape_Area Shape_Area false true true 8 Double 0 0 ,First,#,C:\DC_Gis\DataUpdates\ZipCodesEdits.mdb\ZipCodePlyTemp,Shape_Area,-1,-1" # C:\DC_Gis\DataUpdates\ZipCodesUpdate.mdb\ZipCodePly</Process><Process Name="FeatureClassToFeatureClass_1" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20090326" Time="131817">FeatureClassToFeatureClass W:\DCGISDATA_WORKSPACE\usps\ZipCodesUpdate.mdb\ZipCodePly W:\DCGISDATA_WORKSPACE\usps\ZipCodesUpdate.mdb ZipCodePly2 # "ZIPCODE ZIPCODE true true false 4 Long 0 0 ,First,#,W:\DCGISDATA_WORKSPACE\usps\ZipCodesUpdate.mdb\ZipCodePly,ZIPCODE,-1,-1;GIS_ID GIS_ID true true false 16 Text 0 0 ,First,#,W:\DCGISDATA_WORKSPACE\usps\ZipCodesUpdate.mdb\ZipCodePly,GIS_ID,-1,-1;WEB_URL WEB_URL true true false 254 Text 0 0 ,First,#,W:\DCGISDATA_WORKSPACE\usps\ZipCodesUpdate.mdb\ZipCodePly,WEB_URL,-1,-1;EPA_URL EPA_URL true true false 250 Text 0 0 ,First,#,W:\DCGISDATA_WORKSPACE\usps\ZipCodesUpdate.mdb\ZipCodePly,EPA_URL,-1,-1;NAME NAME true true false 75 Text 0 0 ,First,#,W:\DCGISDATA_WORKSPACE\usps\ZipCodesUpdate.mdb\ZipCodePly,NAME,-1,-1;TYPE TYPE true true false 25 Text 0 0 ,First,#,W:\DCGISDATA_WORKSPACE\usps\ZipCodesUpdate.mdb\ZipCodePly,TYPE,-1,-1;UNINSURED_POPULATION UNINSURED_POPULATION true true false 8 Double 0 0 ,First,#,W:\DCGISDATA_WORKSPACE\usps\ZipCodesUpdate.mdb\ZipCodePly,UNINSURED_POPULATION,-1,-1;MEDICAID_RECIPIENT MEDICAID_RECIPIENT true true false 8 Double 0 0 ,First,#,W:\DCGISDATA_WORKSPACE\usps\ZipCodesUpdate.mdb\ZipCodePly,MEDICAID_RECIPIENT,-1,-1;Shape_Length Shape_Length false true true 8 Double 0 0 ,First,#,W:\DCGISDATA_WORKSPACE\usps\ZipCodesUpdate.mdb\ZipCodePly,Shape_Length,-1,-1;Shape_Area Shape_Area false true true 8 Double 0 0 ,First,#,W:\DCGISDATA_WORKSPACE\usps\ZipCodesUpdate.mdb\ZipCodePly,Shape_Area,-1,-1" # W:\DCGISDATA_WORKSPACE\usps\ZipCodesUpdate.mdb\ZipCodePly2</Process><Process Name="FeatureClassToFeatureClass_2" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20090330" Time="231207">FeatureClassToFeatureClass E:\DataLoad\ZipCodesUpdate.mdb\ZipCodePly "Database Connections\vector_data_dcgiscentral.sde" ZipCodePly # "ZIPCODE ZIPCODE true true false 4 Long 0 0 ,First,#,E:\DataLoad\ZipCodesUpdate.mdb\ZipCodePly,ZIPCODE,-1,-1;GIS_ID GIS_ID true true false 16 Text 0 0 ,First,#,E:\DataLoad\ZipCodesUpdate.mdb\ZipCodePly,GIS_ID,-1,-1;WEB_URL WEB_URL true true false 254 Text 0 0 ,First,#,E:\DataLoad\ZipCodesUpdate.mdb\ZipCodePly,WEB_URL,-1,-1;EPA_URL EPA_URL true true false 250 Text 0 0 ,First,#,E:\DataLoad\ZipCodesUpdate.mdb\ZipCodePly,EPA_URL,-1,-1;NAME NAME true true false 75 Text 0 0 ,First,#,E:\DataLoad\ZipCodesUpdate.mdb\ZipCodePly,NAME,-1,-1;TYPE TYPE true true false 25 Text 0 0 ,First,#,E:\DataLoad\ZipCodesUpdate.mdb\ZipCodePly,TYPE,-1,-1;UNINSURED_POPULATION UNINSURED_POPULATION true true false 8 Double 0 0 ,First,#,E:\DataLoad\ZipCodesUpdate.mdb\ZipCodePly,UNINSURED_POPULATION,-1,-1;MEDICAID_RECIPIENT MEDICAID_RECIPIENT true true false 8 Double 0 0 ,First,#,E:\DataLoad\ZipCodesUpdate.mdb\ZipCodePly,MEDICAID_RECIPIENT,-1,-1;Shape_Length Shape_Length false true true 8 Double 0 0 ,First,#,E:\DataLoad\ZipCodesUpdate.mdb\ZipCodePly,Shape_Length,-1,-1;Shape_Area Shape_Area false true true 8 Double 0 0 ,First,#,E:\DataLoad\ZipCodesUpdate.mdb\ZipCodePly,Shape_Area,-1,-1" DCGISDBP_S "Database Connections\vector_data_dcgiscentral.sde\DCGIS.ZipCodePly"</Process></lineage></DataProperties><MetaID>{C1FC64F1-9D77-4D2D-A8EC-23C73B40CC0B}</MetaID></Esri>
+	<dataIdInfo>
+		<envirDesc Sync="TRUE">Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 4; ESRI ArcCatalog 9.2.6.1500</envirDesc>
+		<dataLang>
+			<languageCode Sync="TRUE" value="en">
+			</languageCode>
+		</dataLang>
+		<idCitation>
+			<resTitle Sync="TRUE">DCGIS.ZipCodePly</resTitle>
+			<presForm>
+				<PresFormCd Sync="TRUE" value="005">
+				</PresFormCd>
+			</presForm>
+		</idCitation>
+		<spatRpType>
+			<SpatRepTypCd Sync="TRUE" value="001">
+			</SpatRepTypCd>
+		</spatRpType>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="native">
+					<westBL Sync="TRUE">389613.7065</westBL>
+					<eastBL Sync="TRUE">407881.6595</eastBL>
+					<northBL Sync="TRUE">147558.733</northBL>
+					<southBL Sync="TRUE">124876.928</southBL>
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<geoBox esriExtentType="decdegrees">
+			<westBL Sync="TRUE">-77.119896</westBL>
+			<eastBL Sync="TRUE">-76.909016</eastBL>
+			<northBL Sync="TRUE">38.995969</northBL>
+			<southBL Sync="TRUE">38.791582</southBL>
+			<exTypeCode Sync="TRUE">1</exTypeCode>
+		</geoBox>
+	</dataIdInfo>
+	<mdLang>
+		<languageCode Sync="TRUE" value="en">
+		</languageCode>
+	</mdLang>
+	<mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+	<mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+	<mdChar>
+		<CharSetCd Sync="TRUE" value="004">
+		</CharSetCd>
+	</mdChar>
+	<mdHrLv>
+		<ScopeCd Sync="TRUE" value="005">
+		</ScopeCd>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<distInfo>
+		<distributor>
+			<distorTran>
+				<onLineSrc>
+					<orDesc Sync="TRUE">002</orDesc>
+					<linkage Sync="TRUE">file://</linkage>
+					<protocol Sync="TRUE">Local Area Network</protocol>
+				</onLineSrc>
+				<transSize Sync="TRUE">0.719</transSize>
+			</distorTran>
+			<distorFormat>
+				<formatName Sync="TRUE">SDE Feature Class</formatName>
+			</distorFormat>
+		</distributor>
+	</distInfo>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode Sync="TRUE">NAD_1983_StatePlane_Maryland_FIPS_1900</identCode>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo>
+		<VectSpatRep>
+			<topLvl>
+				<TopoLevCd Sync="TRUE" value="001">
+				</TopoLevCd>
+			</topLvl>
+			<geometObjs Name="DCGIS.ZipCodePly"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs></VectSpatRep>
+	</spatRepInfo>
+	<mdDateSt Sync="TRUE">20090330</mdDateSt>
+	<mdFileID Sync="TRUE">{8A052C80-6D39-4DB7-B93A-16F0D76EF8F5}</mdFileID></metadata>

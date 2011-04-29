@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE metadata SYSTEM "http://www.fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Metropolitan Police Department</origin>
+				<pubdate>20070622</pubdate>
+				<title Sync="TRUE">DCGIS_PolSAPly</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<onlink>http://dcatlas.dcgis.dc.gov/download/PolSAPly.zip</onlink>
+				<lworkcit>
+					<citeinfo>
+						<origin>DC GIS</origin>
+						<title>DC Geographic Information System</title>
+						<geoform>vector digital data</geoform>
+					</citeinfo>
+				</lworkcit>
+				<ftname Sync="TRUE">DCGIS_PolSAPly</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>Metropolitan Police Department (MPD) Police Service Areas (PSA). The dataset contains polygons representing of MPD PSA, created as part of the DC Geographic Information System (DC GIS) for the D.C. Office of the Chief Technology Officer (OCTO) and participating D.C. government agencies. Police jurisdictions were initially created selecting street arcs from the WGIS planimetric street centerlines and, where necessary, heads-up digitized from the snapbase.
+
+All DC GIS data is stored and exported in Maryland State Plane coordinates NAD 83 meters.
+
+METADATA CONTENT IS IN PROCESS OF VALIDATION AND SUBJECT TO CHANGE.</abstract>
+			<purpose>This data is used for the planning and management of Washington, D.C. by local government agencies.</purpose>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>20070622</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress><update>As needed</update></status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-77.119896</westbc>
+				<eastbc Sync="TRUE">-76.909016</eastbc>
+				<northbc Sync="TRUE">38.995967</northbc>
+				<southbc Sync="TRUE">38.791582</southbc>
+			</bounding>
+			<dsgpoly>
+				<dsgpolyo>
+					<grngpoin>
+					</grngpoin>
+				</dsgpolyo>
+			</dsgpoly>
+			<lboundng><leftbc Sync="TRUE">389613.706500</leftbc><rightbc Sync="TRUE">407881.659500</rightbc><bottombc Sync="TRUE">124876.928000</bottombc><topbc Sync="TRUE">147558.549000</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>none</themekt>
+				<themekey>boundaries</themekey><themekey>Society</themekey><themekey>Government Jurisdictions</themekey><themekey>Metropolitan Police Department</themekey><themekey>PSA</themekey><themekey>Police Service Areas</themekey><themekey>Public Safety</themekey><themekey>pubsafety</themekey></theme>
+			<place>
+				<placekey>Washington, D.C.</placekey>
+				<placekey>District of Columbia</placekey>
+				<placekey>DC</placekey>
+				<placekey>DC GIS</placekey>
+				<placekey>DCGIS</placekey>
+			</place>
+		</keywords>
+		<accconst>Contact OCTO GIS. Any data obtained outside of OCTO GIS are unauthorized copies.</accconst>
+		<useconst>Data may only be used for District Government projects and not redistributed in any manner. OCTO makes no claims as to the completeness, accuracy or content of any data contained hereon, and makes no representation of any kind, including, but not limited to, the warranty of the accuracy or fitness for a  particular use, nor are any such warranties to be implied or inferred with respect to the information or data furnished herein.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>D.C. Office of the Chief Technology Officer</cntorg>
+					<cntper>GIS Data Coordinator</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>441 4th St NW, Suite 930 South</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20001</postal>
+					<country>USA</country></cntaddr>
+				<cntfax>(202) 727-5660</cntfax>
+				<cntemail>dcgis@dc.gov</cntemail>
+				<hours>8:30 am - 5:00 pm</hours>
+			</cntinfo>
+		</ptcontac>
+		<datacred>Metropolitan Police Department</datacred>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.2.1350</native>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>Data believed to be complete and accurate as of the time period cited. Subject to change. Digital version compared with original source data for accuracy and completeness.  Validated by source and/or responsible agency.
+
+Staff check for boundaries that intersected select planimetric features, such as buildings.  Then, staff checked all the text descriptions of the 44 PSA boundaries against the psa arc coverage, snapbase, and street centerlines.  MPD also reviewed the PSAs against the planimetrics, text descriptions, and existing files.</attraccr>
+		</attracc>
+		<logic>In process of validation by source and/or responsible agency.</logic>
+		<complete>Data believed to be complete and accurate, subject to change. Digital version compared with original source data for accuracy and completeness. Validated by source and/or responsible agency.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Validated by source and/or responsible agency.</horizpar>
+			</horizpa>
+			<vertacc>
+				<vertaccr>N/A</vertaccr>
+			</vertacc>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Metropolitan Police Department</origin>
+						<pubdate>05/02/2004</pubdate>
+						<title>Metropolitan Police Department PSA Shapefile</title>
+						<geoform>vector digital data</geoform>
+						<onlink>http://mpdc.dc.gov</onlink></citeinfo>
+				</srccite>
+				<srcscale>10000</srcscale>
+				<typesrc>shapefile</typesrc>
+				<srctime>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Metropolitan Police Department PSAs</srccitea>
+				<srccontr>boundaries and attributes</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Metropolitan Police Department</origin>
+						<pubdate>05/02/2004</pubdate>
+						<title>Metropolitan Police Department boundary text descriptions</title>
+						<onlink>http://mpdc.dc.gov/</onlink>
+						<geoform>document</geoform></citeinfo>
+				</srccite>
+				<typesrc>document</typesrc>
+				<srccitea>Metropolitan Police Department Boundary text descriptions</srccitea>
+				<srccontr>boundaries and attributes</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>The following reference materials were used to create the new Police Service Area (PSA) layer:
+
+· Snapbase from 06/13/2003 assembled from the following source layers:
+o DCBNDY
+o RAIL
+o SIS_SCL
+o SMD2002
+o ANC2002
+o VOTEPRE2002
+o WATER
+o ZIP
+· Citywide_31204 shapefile supplied by MPD roughly outlining the new PSAs.
+· Text description report defining the boundaries of every PSA supplied by MPD.
+· Current (old) version of the PSA on the OCTO Geodatabase.
+· 1999 DC orthophotograph.
+
+Procedures:
+
+1. The reference materials were assembled in the ArcView 3.3 environment. The prj file defined the projection in which arcs were selected to define the PSAs.
+
+2. A copy of the snapbase was modified with a new integer field, called newpsa. When arcs that make up the new PSAs were selected, the records were tagged with a value of 1 in the new field while the rest of the unselected records were tagged as 0.
+
+3. For arcs that required spatial modifications like splitting, snapping, or drawing in new segments, a hard copy print out of the Citywide_31204 shapefile was marked up to identify the areas that required change. These changes were made in the arcedit environment later on in the process to maintain precision.
+
+4. Within the arcedit environment, an analyst used arctools to zoom into the identified areas from the hardcopy printout and draw, intersect, or snap the necessary segments. Then the modified arcs or new arcs were attributed with 1 in the newpsa field.
+
+5. After all the segments that comprise the PSAs were completed, the analyst selected all the arcs with a value of 1 in the newpsa and placed into a new coverage. This new coverage was used to QC the selections if there were any segments missing to enclose polygons or self intersecting arcs. Staff performed a build on the coverage to identify arcs with topological errors.
+
+6. The snapbase was then modified to fix the errors identified in step 5.
+
+7. Once all errors were fixed, all the arcs with the value of 1 were then reselected and put into a new coverage for building the PSA polygons.
+
+8. Within the ArcView 3.3 environment, the City_31204 shapefile was used to create centroids and an additional integer field was added for calculating the PSA coverage ID though a spatial join (point to polygon).
+
+9. The PSA coverage attribute table was then populated with the PSA ID by performing a table join with the centroid attribute table where the polygon ID matched the ID that was calculated in step 8.
+
+10. Staff then saved the changes and the process is completed.
+
+Planimetrics were created at a scale of 1:1,000. This means that a well defined feature falls within two feet of true position.
+
+All DC GIS data is stored and exported in Maryland State Plane coordinates NAD 83 meters.</procdesc>
+				<procdate>4/26/04</procdate>
+				<proccont>
+					<cntinfo>
+						<cntfax>(202) 727-5660</cntfax>
+						<cntemail>dcgis@dc.gov</cntemail>
+						<hours>8:30 am - 5:00 pm</hours>
+						<cntaddr><addrtype>mailing and physical address</addrtype><address>441 4th St NW, Suite 930 South</address><city>Washington</city><state>DC</state><postal>20001</postal><country>USA</country></cntaddr><cntorgp><cntorg>D.C. Office of the Chief Technology Officer</cntorg><cntper>GIS Data Coordinator</cntper></cntorgp></cntinfo>
+				</proccont>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\OCTOGIS\Data\MPD\PolSAPly_old.shp.xml</srcused><date Sync="TRUE">20040727</date><time Sync="TRUE">16005600</time></procstep><procstep><proccont><cntinfo><cntperp><cntorg>OCTO</cntorg></cntperp></cntinfo></proccont><procdesc>MPD split PSA 605 into two PSAs: 605 and 607.  Pennsylvania Ave SE, from the Anacostia River to Alabama Ave, splits 605 into the two new PSAs.  Using Arcedit, staff selected the arcs from the snapbase and put them into the original, approved PSA coverage.  The edit and snapping environment was established to maintain topologic and geographic accuracy.  Staff then performed a build on the coverage and attributed the two new polygons.  Staff checked the topologic and attribute accuracy of the coverage against source materials before generating polygon and line shapefiles and adding metadata.</procdesc><procdate>07/27/04</procdate></procstep><procstep><proccont><cntinfo><cntorgp><cntorg>Office of the Chief Technology Officer</cntorg><cntper>GIS Data Coordinator</cntper></cntorgp><cntaddr><addrtype>mailing and physical address</addrtype><address>441 4th St NW, Suite 930 South</address><city>Washington</city><state>DC</state><postal>20001</postal><country>USA</country></cntaddr><cntfax>202-727-5660</cntfax><cntemail>dcgis@dc.gov</cntemail><hours>8:30am - 5:30pm</hours></cntinfo></proccont><procdesc>MPD split PSA 502 into two PSAs: 502 and 505 along Rhode Island Ave NE.  Using Arcedit, staff selected the arcs from the snapbase and put them into the PSA line layer.  Staff then constructed polygons from the line.  Staff then deleted PSA 502 from the PSA layer and placed the two new PSA polygons into the PSA layer.  Attributes and metadata was added.</procdesc><procdate>12/16/05</procdate></procstep><procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">E:\DCGISDATA_WORKSPACE\MPD\PolSAPly_old.shp.xml</srcused><date Sync="TRUE">20061206</date><time Sync="TRUE">14351800</time></procstep><srcinfo><srccite><citeinfo><origin>DC Office of Planning</origin><pubdate>2006</pubdate><title>Population Projections</title><geoform>tabular digital data</geoform><onlink>http://planning.dc.gov</onlink></citeinfo></srccite><typesrc>database</typesrc><srccitea>Population Projections</srccitea><srccontr>attribution</srccontr></srcinfo><procstep><proccont><cntinfo><cntorgp><cntorg>Office of the Chief Technology Officer</cntorg><cntper>GIS Data Coordinator</cntper></cntorgp><cntaddr><addrtype>mailing and physical address</addrtype><address>441 4th St NW, Suite 930 South</address><city>Washington</city><state>DC</state><postal>20001</postal><country>USA</country></cntaddr><cntfax>202-727-5660</cntfax><cntemail>dcgis@dc.gov</cntemail><hours>8:30am - 5:30pm</hours></cntinfo></proccont><procdesc>Population estimations by PSA were appended to the database.</procdesc><procdate>12/6/06</procdate></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">Server=dcgiscentral.in.dc.gov; Service=5151; User=dcgis_user; Version=SDE.DEFAULT</srcused><date Sync="TRUE">20070621</date><time Sync="TRUE">16405700</time></procstep><procstep><proccont><cntinfo><cntorgp><cntorg>Office of the Chief Technology Officer</cntorg><cntper>GIS Data Coordinator</cntper></cntorgp><cntaddr><addrtype>mailing and physical address</addrtype><address>441 4th St NW, Suite 930 South</address><city>Washington</city><state>DC</state><postal>20001</postal><country>USA</country></cntaddr><cntfax>202-727-5660</cntfax><cntemail>dcgis@dc.gov</cntemail><hours>8:30am - 5:30pm</hours></cntinfo></proccont><procdesc>Changed PSA 306 to 208.</procdesc><procdate>06/22/07</procdate></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">W:\DCGISDATA_WORKSPACE\MPD\PolSAPly</srcused><date Sync="TRUE">20070828</date><time Sync="TRUE">09064800</time></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="DCGIS_PolSAPly">
+				<sdtstype Sync="TRUE">G-polygon</sdtstype>
+				<ptvctcnt Sync="TRUE">0</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="DCGIS_PolSAPly"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polygon</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.000000</absres>
+						<ordres Sync="TRUE">0.000000</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">meters</plandu>
+				</planci>
+				<gridsys><gridsysn Sync="TRUE">State Plane Coordinate System 1983</gridsysn><spcs><spcszone Sync="TRUE">1900</spcszone><lambertc><stdparll Sync="TRUE">38.300000</stdparll><stdparll Sync="TRUE">39.450000</stdparll><longcm Sync="TRUE">-77.000000</longcm><latprjo Sync="TRUE">37.666667</latprjo><feast Sync="TRUE">400000.000000</feast><fnorth Sync="TRUE">0.000000</fnorth></lambertc></spcs></gridsys></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_StatePlane_Maryland_FIPS_1900</projcsn></cordsysn></horizsys>
+		<vertdef>
+			<altsys>
+				<altres>1.000000</altres>
+				<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed Name="DCGIS_PolSAPly">
+			<attr><attrlabl Sync="TRUE">PC_NOHSDEG</attrlabl><attalias Sync="TRUE">PC_NOHSDEG</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec><attrdef>Percent population with no high school diploma</attrdef></attr><enttyp>
+				<enttypl Sync="TRUE">DCGIS_PolSAPly</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc></enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr>
+			<attr>
+				<attrlabl Sync="TRUE">NAME</attrlabl>
+				<attrdef>Police Service Area ID</attrdef>
+				<attalias Sync="TRUE">NAME</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">10</attwidth></attr>
+			<attr>
+				<attrlabl Sync="TRUE">WEB_URL</attrlabl>
+				<attrdef>Web link url</attrdef>
+				<attalias Sync="TRUE">WEB_URL</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr>
+			<attr>
+				<attrlabl Sync="TRUE">ROC_ID</attrlabl>
+				<attrdef>Regional Operations Command ID</attrdef>
+				<attalias Sync="TRUE">ROC_ID</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">125</attwidth></attr>
+			<attr>
+				<attrlabl Sync="TRUE">POLDIST_ID</attrlabl>
+				<attrdef>Police District ID</attrdef>
+				<attalias Sync="TRUE">POLDIST_ID</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">12</attwidth></attr>
+			<attr>
+				<attrlabl Sync="TRUE">GIS_ID</attrlabl>
+				<attrdef>OCTO GIS sequential identifier</attrdef>
+				<attrdomv>
+				</attrdomv>
+				<attalias Sync="TRUE">GIS_ID</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">12</attwidth></attr>
+			<attr><attrlabl Sync="TRUE">TOTALPOP</attrlabl><attalias Sync="TRUE">TOTALPOP</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">16</attwidth><attrdef>Total population</attrdef></attr><attr><attrlabl Sync="TRUE">POPUNDER18</attrlabl><attalias Sync="TRUE">POPUNDER18</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec><attrdef>Population under 18 years old</attrdef></attr><attr><attrlabl Sync="TRUE">POP65UP</attrlabl><attalias Sync="TRUE">POP65UP</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec><attrdef>Population 65 years old and older</attrdef></attr><attr><attrlabl Sync="TRUE">ASIAN</attrlabl><attalias Sync="TRUE">ASIAN</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec><attrdef>Total Asian population</attrdef></attr><attr><attrlabl Sync="TRUE">BLACK</attrlabl><attalias Sync="TRUE">BLACK</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec><attrdef>Total Black population</attrdef></attr><attr><attrlabl Sync="TRUE">HISPANIC</attrlabl><attalias Sync="TRUE">HISPANIC</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec><attrdef>Total Hispanic population</attrdef></attr><attr><attrlabl Sync="TRUE">NAT_AMER</attrlabl><attalias Sync="TRUE">NAT_AMER</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec><attrdef>Total Native American Population</attrdef></attr><attr><attrlabl Sync="TRUE">OTHER</attrlabl><attalias Sync="TRUE">OTHER</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec><attrdef>Total Other Population</attrdef></attr><attr><attrlabl Sync="TRUE">WHITE</attrlabl><attalias Sync="TRUE">WHITE</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec><attrdef>Total White Population</attrdef></attr><attr><attrlabl Sync="TRUE">TWO_ORMORE</attrlabl><attalias Sync="TRUE">TWO_ORMORE</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec><attrdef>Two or More Households</attrdef></attr><attr><attrlabl Sync="TRUE">AVGMEDHHI</attrlabl><attalias Sync="TRUE">AVGMEDHHI</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec><attrdef>Average Median Household Income</attrdef></attr><attr><attrlabl Sync="TRUE">PC_FEMALE</attrlabl><attalias Sync="TRUE">PC_FEMALE</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec><attrdef>Percent Female Population</attrdef></attr><attr><attrlabl Sync="TRUE">PC_MALE</attrlabl><attalias Sync="TRUE">PC_MALE</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec><attrdef>Percent Male population</attrdef></attr><attr><attrlabl Sync="TRUE">PC_HIGHDEG</attrlabl><attalias Sync="TRUE">PC_HIGHDEG</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec><attrdef>Percent population with graduate degree</attrdef></attr><attr><attrlabl Sync="TRUE">PC_UGDEG</attrlabl><attalias Sync="TRUE">PC_UGDEG</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec><attrdef>Percent population with an under graduate degree</attrdef></attr><attr><attrlabl Sync="TRUE">OBJECTID</attrlabl><attalias Sync="TRUE">OBJECTID</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv><atnumdec Sync="TRUE">11</atnumdec></attr><attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv><atnumdec Sync="TRUE">11</atnumdec></attr><attr><attrlabl Sync="TRUE">PC_HSDEG</attrlabl><attalias Sync="TRUE">PC_HSDEG</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec><attrdef>Percent population with a high school diploma</attrdef></attr><attr><attrlabl Sync="TRUE">SHAPE</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv><atnumdec Sync="TRUE">11</atnumdec></attr><attr><attrlabl Sync="TRUE">SHAPE_AREA</attrlabl><attalias Sync="TRUE">SHAPE_AREA</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv><atnumdec Sync="TRUE">11</atnumdec></attr><attr><attrlabl Sync="TRUE">SHAPE_LEN</attrlabl><attalias Sync="TRUE">SHAPE_LEN</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr></detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>441 4th St NW, Suite 930 South</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20001</postal>
+					<country>USA</country></cntaddr>
+				<cntfax>(202) 727-5660</cntfax>
+				<cntemail>dcgis@dc.gov</cntemail>
+				<hours>8:30 am - 5:00 pm</hours>
+				<cntinst>dcgis@dc.gov</cntinst>
+				<cntorgp><cntorg>D.C. Office of the Chief Technology Officer</cntorg><cntper>GIS Data Coordinator</cntper></cntorgp></cntinfo>
+		</distrib>
+		<resdesc>Downloadable Data</resdesc>
+		<distliab>OCTO makes no claims as to the completeness, accuracy or content of any data contained hereon, and makes no	representation of any kind, including, but not limited to, the warranty of the accuracy or fitness for a particular use, nor are any such warranties to be implied or inferred, with respect to the information or data furnished herein. Subject to terms and conditions of the Memorandum of Agreement. Memorandum of Agreement must have authorized signature.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize Sync="TRUE">0.000</transize><dssize Sync="TRUE">0.000</dssize></digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+							</networka>
+						</computer>
+					</onlinopt>
+				</digtopt>
+			</digform>
+			<ordering>Most DC GIS datasets can be downloaded from "http://dcgis.dc.gov" on the data center page.  Orders can also be made by contacting OCTO GIS at "dcgis@dc.gov", especially for datasets not available for download.</ordering></stdorder>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20071003</metd>
+		<metc>
+			<cntinfo>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>441 4th St NW, Suite 930 South</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20001</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntfax>(202) 727-5660</cntfax>
+				<cntemail>dcgis@dc.gov</cntemail>
+				<hours>9:30 am - 5:00 pm</hours>
+				<cntinst>email</cntinst>
+				<cntorgp><cntper>GIS Data Coordinator</cntper><cntorg>D.C. Office of the Chief Technology Officer</cntorg></cntorgp></cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metac>None.</metac>
+		<metuc>None.</metuc>
+		<langmeta Sync="TRUE">en</langmeta><metrd>04/27/2004</metrd><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><ModDate>20071003</ModDate><ModTime>08511600</ModTime><CreaDate>20070828</CreaDate><CreaTime>09064800</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20071003</SyncDate><SyncTime>08511600</SyncTime><DataProperties><lineage><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20061207" Time="194501">CopyFeatures E:\DataLoad_120706\PolSAPly.shp "Database Connections\dcgiscentral Data Loader.sde\DCGIS.PoliceAreas\DCGIS.PolSAPly" DCGISDBP_S 10000 0 0</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20070831" Time="205848">CopyFeatures E:\DataLoad083007\PolSAPly.shp "Database Connections\dcgiscentral Data Loader.sde\DCGIS.PoliceAreas\DCGIS.PolSAPly" DCGISDBP_S 10000 0 0</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20071003" Time="085117">CopyFeatures "Database Connections\DCGISCentral_RO.sde\DCGIS.PoliceAreas\DCGIS.PolSAPly" G:\GIS\SPATIAL_DATA\DataCatalog\DCGIS_PolSAPly.shp # 0 0 0</Process></lineage></DataProperties><MetaID>{DD2C55B0-41A3-4C52-B4C9-BEF44B1C1D5A}</MetaID></Esri><mdDateSt Sync="TRUE">20071003</mdDateSt><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.2.1350</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">DCGIS_PolSAPly</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">389613.7065</westBL><eastBL Sync="TRUE">407881.6595</eastBL><northBL Sync="TRUE">147558.549</northBL><southBL Sync="TRUE">124876.928</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-77.119896</westBL><eastBL Sync="TRUE">-76.909016</eastBL><northBL Sync="TRUE">38.995967</northBL><southBL Sync="TRUE">38.791582</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\OJSFILE\OCTODATA$\GIS\SPATIAL_DATA\DataCatalog\DCGIS_PolSAPly.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.000</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">NAD_1983_StatePlane_Maryland_FIPS_1900</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="DCGIS_PolSAPly"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo></metadata>

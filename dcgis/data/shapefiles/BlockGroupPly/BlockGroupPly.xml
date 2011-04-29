@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:xdt="http://www.w3.org/2005/xpath-datatypes">
+<idinfo>
+<citation>
+<citeinfo>
+<origin>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</origin>
+<pubdate>20110204</pubdate>
+<title>DCGIS.BlockGroupPly</title>
+<edition>2010</edition>
+<geoform>vector digital data</geoform>
+<onlink>Server=10.1.11.144; Service=5151; User=dcgis; Version=SDE.DEFAULT</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>Census Block Groups - 2010.  The TIGER/Line Files are shapefiles and related database files (.dbf) that are an extract of selected geographic and cartographic information from the U.S. Census Bureau&apos;s Master Address File / Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) Database (MTDB).  The MTDB represents a seamless national file with no overlaps or gaps between parts, however, each TIGER/Line File is designed to stand alone as an independent data set, or they can be combined to cover the entire nation.  Face refers to the areal (polygon) topological primitives that make up MTDB.  A face is bounded by one or more edges; its boundary includes only the edges that separate it from other faces, not any interior edges contained within the area of the face.  The Topological Faces Shapefile contains the attributes of each topological primitive face.  Each face has a unique topological face identifier (TFID) value.  Each face in the shapefile includes the key geographic area codes for almost all geographic areas for which the Census Bureau tabulates data for both the 2010 Census and Census 2000.  The geometries of each of these geographic areas can then be built by dissolving the face geometries on the appropriate key geographic area codes in the Topological Faces Shapefile.</abstract>
+<purpose>In order for others to use the information in the Census MAF/TIGER database in a geographic information system (GIS) or for other geographic applications, the Census Bureau releases to the public extracts of the database in the form of TIGER/Line Shapefiles.</purpose>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>201001</begdate>
+<enddate>201007</enddate>
+</rngdates>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>TIGER/Line Shapefiles are extracted from the Census MAF/TIGER database.  No changes or updates will be made to this version of the TIGER/Line Shapefiles.  Future releases of TIGER/Line Shapefiles will reflect updates made to the Census MAF/TIGER database.</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-77.119862</westbc>
+<eastbc>-76.909262</eastbc>
+<northbc>38.995809</northbc>
+<southbc>38.791590</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>ISO 19115 Topic Categories</themekt>
+<themekey>boundaries</themekey>
+</theme>
+<theme>
+<themekt>None</themekt>
+<themekey>County or equivalent entity</themekey>
+<themekey>Table</themekey>
+<themekey>Topological Faces</themekey>
+<themekey>State FIPS Code</themekey>
+<themekey>County FIPS Code</themekey>
+<themekey>Census Tract Number</themekey>
+<themekey>Block Group</themekey>
+<themekey>Number</themekey>
+<themekey>Tabulation Block Number</themekey>
+<themekey>County Subdivision FIPS Code</themekey>
+<themekey>Sub-minor Civil Division FIPS Code in Puerto Rico</themekey>
+<themekey>FIPS 55 Place Code For All Places</themekey>
+<themekey>Consolidated City FIPS Code</themekey>
+<themekey>Urban Area Code</themekey>
+<themekey>106th congressional district Code</themekey>
+<themekey>108th congressional district Code</themekey>
+<themekey>5 digit ZIP Code Tabulation Area Code</themekey>
+<themekey>3 digit ZIP Code Tabulation Area Code</themekey>
+<themekey>Traffic Analysis Zone Code</themekey>
+<themekey>Voting District Code</themekey>
+<themekey>State Legislative District Upper Chamber Code</themekey>
+<themekey>State Legislative District Lower Chamber Code</themekey>
+<themekey>Legislative Session Year</themekey>
+<themekey>Urban Growth Area Code</themekey>
+<themekey>American Indian/Alaska Native/Native Hawaiian Areas Census Code</themekey>
+<themekey>Rreservation or Off-reservation Trust Land Indicator</themekey>
+<themekey>Alaska Native Regional Corporation FIPS code</themekey>
+<themekey>Tribal Subdivision Code</themekey>
+<themekey>Metropolitan Statistical Area/Consolidated Metropolitan Statistical Area FIPS Code</themekey>
+<themekey>Primary Metropolitan Statistical Area FIPS Code</themekey>
+<themekey>New England County Metropolitan Area FIPS Code</themekey>
+<themekey>Elementary School District Local Education Agency Code</themekey>
+<themekey>Secondary School District Local Education Agency Code</themekey>
+<themekey>Unified School District Local Education Agency Code</themekey>
+<themekey>1-Percent Public Use Microdata Area Code</themekey>
+<themekey>5-Percent Public Use Microdata Area Code</themekey>
+<themekey>Land/water Flag</themekey>
+</theme>
+<place>
+<placekt>INCITS.38-200x (R2004),INCITS.31-200x (R2007),INCITS.454-200x,INCITS 455-200x,INCITS 446-2008</placekt>
+<placekey>United States</placekey>
+<placekey>U.S.</placekey>
+<placekey>County or Equivalent Entity</placekey>
+<placekey>District of Columbia</placekey>
+<placekey>11001</placekey>
+</place>
+</keywords>
+<accconst>None</accconst>
+<useconst>
+The TIGER/Line Shapefile products are not copyrighted however TIGER/Line and Census TIGER are registered trademarks of the U.S. Census Bureau.  These products are free to use in a product or publication, however acknowledgement must be given to the U.S. Census Bureau as the source.
+The boundary information in the TIGER/Line Shapefiles are for statistical data collection and tabulation purposes only; their depiction and designation for statistical purposes does not constitute a determination of jurisdictional authority or rights of ownership or entitlement and they are not legal land descriptions.Coordinates in the TIGER/Line shapefiles have six implied decimal places, but the positional accuracy of these coordinates is not as great as the six decimal places suggest.
+</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Products Branch</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>Mailing address</addrtype>
+<address>4600 Silver Hill Road, Stop 7400</address>
+<city>Washington</city>
+<state>DC</state>
+<postal>20233-7400</postal>
+<country>United States</country>
+</cntaddr>
+<cntvoice>301-763-1128</cntvoice>
+<cntfax>301-763-4710</cntfax>
+<cntemail>geo.tiger@census.gov</cntemail>
+</cntinfo>
+</ptcontac>
+<datacred>US Census Bureau</datacred>
+<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.2.6.1500</native>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>Accurate against Federal Information Processing Standards (FIPS), FIPS Publication 6-4, and FIPS-55 at the 100% level for the codes and base names.  The remaining attribute information has been examined but has not been fully tested for accuracy.</attraccr>
+</attracc>
+<logic>
+The Census Bureau performed automated tests to ensure logical consistency and limits of shapefiles.  Segments making up the outer and inner boundaries of a polygon tie end-to-end to completely enclose the area.  All polygons are tested for closure.
+The Census Bureau uses its internally developed geographic update system to enhance and modify spatial and attribute data in the Census MAF/TIGER database.  Standard geographic codes, such as FIPS codes for states, counties, municipalities, county subdivisions, places, American Indian/Alaska Native/Native Hawaiian areas, and congressional districts are used when encoding spatial entities.  The Census Bureau performed spatial data tests for logical consistency of the codes during the compilation of the original Census MAF/TIGER database files.  Most of the codes for geographic entities except states, counties, urban areas, Core Based Statistical Areas (CBSAs), American Indian Areas (AIAs), and congressional districts were provided to the Census Bureau by the USGS, the agency responsible for maintaining FIPS 55.  Feature attribute information has been examined but has not been fully tested for consistency.
+For the TIGER/Line Shapefiles, the Point and Vector Object Count for the G-polygon SDTS Point and Vector Object Type reflects the number of records in the shapefile attribute table.  For multi-polygon features, only one attribute record exists for each multi-polygon rather than one attribute record per individual G-polygon component of the multi-polygon feature.  TIGER/Line Shapefile multi-polygons are an exception to the G-polygon object type classification.  Therefore, when multi-polygons exist in a shapefile, the object count will be less than the actual number of G-polygons.
+</logic>
+<complete>Data completeness of the TIGER/Line Shapefiles reflects the contents of the Census MAF/TIGER database at the time the TIGER/Line Shapefiles were created.</complete>
+<lineage>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</origin>
+<pubdate>Unpublished material</pubdate>
+<title>Census MAF/TIGER database</title>
+</citeinfo>
+</srccite>
+<typesrc>online</typesrc>
+<srctime>
+<timeinfo>
+<rngdates>
+<begdate>201001</begdate>
+<enddate>201007</enddate>
+</rngdates>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>MAF/TIGER</srccitea>
+<srccontr>The selected geographic and cartographic information (line segments) are derived from the U.S. Census Bureau&apos;s Master Address File Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) database.</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>TIGER/Line Shapefiles are extracted from the Census MAF/TIGER database by nation, state, county, and entity.  Census MAF/TIGER data for all of the aforementioned geographic entities are then distributed among the shapefiles each containing attributes for line, polygon, or landmark geographic data.</procdesc>
+<srcused>Census MAF/TIGER</srcused>
+<procdate>2010</procdate>
+</procstep>
+<procstep>
+<procdesc>
+District Preparation:
+
+- All files loaded into an ArcGIS personal geodatabase feature dataset
+- A second feature dataset was created based on the DCBndyPly, and all source feature classes were loaded (projected) into it.
+- A secondary ArcGIS personal geodatabase and feature dataset were created for editing, containing CurrentAllLinesOrEdges, CurrentTopologicalFaces, and a copy of the DCGIS street centerline.
+- A topology was created to ensure no polygon gaps or overlaps, and that all polygon edges were covered by linear features
+- Fields were added for the EditorTracker extension:  EDITOR_NAME (30), EDIT_DATE (30)
+
+An operator scanned the District at a scale of approximately 1:2500 looking for areas where Census boundaries were located inaccurately.  Not all inconsistencies were addressed, but obviously mis-placed features were corrected wherever possible.  Census MTFCC codes on the linear features were used as a guide.  For example, street alignments were corrected, but invisible political boundaries were not touched.  Emphasis was placed on features that would constitute polygon edges.
+
+All edited features carry EDITOR_NAME and EDIT_DATE information.
+Connectivity issues were not addressed.  Displacements from correct positions were adjusted as much as possible without changing connectivity.  Inaccurate attribution on Census features (as when a street carries an incorrect name) were not addressed.
+
+In numerous cases, featured tagged P001 (Nonvisible linear legal/statistical boundary) or P004 (Other non-visible bounding edge, e.g., census water boundary or boundary of an area feature) appeared to be located quite crudely and likely in error, but updating those features was outside of the current scope.  Note that many of these features do not constitute edges for the derived feature classes of interest, and these discrepancies may not have practical implications at the current time.
+
+In numerous cases, street connectivity as rendered in the TIGER database is incorrect.  Because changes to street connectivity are difficult for Census Bureau staff to correct, every effort was made to leave connectivity unchanged.  Best-fit solutions to improve street alignment without changing street connectivity were used.
+
+After editing, integrity of the topology rules was checked, and minor editing errors corrected as need.
+
+The EditorTracker extension was disabled, and the Dissolve tool was used to create 2010 blocks, block groups, census tracts, school districts (sldust10) and voting districts from CurrentTopologicalFaces.
+</procdesc>
+<procdate>20040204</procdate>
+<proccont>
+<cntinfo>
+<cntperp>
+<cntper>Charlie Richman</cntper>
+<cntorg>DC Office of Planning</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>1100 4th st SW, 6th Floor</address>
+<city>Washington</city>
+<state>DC</state>
+<postal>20002</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>202-442-7621</cntvoice>
+<cntemail>charlie.richman@dc.gov</cntemail>
+<hours>9am - 5pm</hours>
+</cntinfo>
+</proccont>
+</procstep>
+<procstep>
+<procdesc>Metadata imported.</procdesc>
+<srcused>C:\temp\BlockGroupPly.xml</srcused>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<indspref>Federal Information Processing Standards (FIPS), ANSI, and feature names.</indspref>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>G-polygon</sdtstype>
+<ptvctcnt>450</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<gridsys>
+<gridsysn>State Plane Coordinate System 1983</gridsysn>
+<spcs>
+<spcszone>1900</spcszone>
+<lambertc>
+<stdparll>38.300000</stdparll>
+<stdparll>39.450000</stdparll>
+<longcm>-77.000000</longcm>
+<latprjo>37.666667</latprjo>
+<feast>400000.000000</feast>
+<fnorth>0.000000</fnorth>
+</lambertc>
+</spcs>
+</gridsys>
+<planci>
+<plance>coordinate pair</plance>
+<coordrep>
+<absres>0.000063</absres>
+<ordres>0.000063</ordres>
+</coordrep>
+<plandu>meters</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137.000000</semiaxis>
+<denflat>298.257222</denflat>
+</geodetic>
+</horizsys>
+<vertdef>
+<altsys>
+<altres>1.000000</altres>
+<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+</altsys>
+</vertdef>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>DCGIS.BlockGroupPly</enttypl>
+<enttypd>
+Topological Faces (Polygons With all Geocodes) County-based
+                 shapefile
+</enttypd>
+<enttypds>U.S. Census Bureau</enttypds>
+</enttyp>
+<attr>
+<attrlabl>OBJECTID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>TRACT</attrlabl>
+</attr>
+<attr>
+<attrlabl>BLKGRP</attrlabl>
+</attr>
+<attr>
+<attrlabl>SHAPE</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE.AREA</attrlabl>
+</attr>
+<attr>
+<attrlabl>SHAPE.LEN</attrlabl>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Products Branch</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>Mailing address</addrtype>
+<address>4600 Silver Hill Road, Stop 7400</address>
+<city>Washington</city>
+<state>DC</state>
+<postal>20233-7400</postal>
+<country>United States</country>
+</cntaddr>
+<cntvoice>301-763-1128</cntvoice>
+<cntfax>301-763-4710</cntfax>
+<cntemail>geo.tiger@census.gov</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>Downloadable Data</resdesc>
+<distliab>No warranty, expressed or implied is made with regard to the accuracy of these data, and no liability is assumed by the U.S. Government in general or the U.S. Census Bureau in specific as to the spatial or attribute accuracy of the data.  The act of distribution shall not constitute any such warranty and no responsibility is assumed by the U.S. government in the use of these files.  The boundary information in the TIGER/Line Shapefiles is for statistical data collection and tabulation purposes only; their depiction and designation for statistical purposes do not constitute a determination of jurisdictional authority or rights of ownership or entitlement and they are not legal land descriptions.</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>TGRSHP (compressed)</formname>
+<filedec>PK-ZIP, version 1.93 A or higher</filedec>
+<transize>4.502</transize>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://www.census.gov/geo/www/tiger</networkr>
+</networka>
+</computer>
+</onlinopt>
+<offoptn>
+<offmedia>DVD-ROM (Only if offered offline)</offmedia>
+<recfmt>ISO 9660</recfmt>
+</offoptn>
+</digtopt>
+</digform>
+<fees>The online copy of the TIGER/Line files may be accessed without charge.</fees>
+<ordering>To obtain more information about ordering TIGER/Line shapefiles visit http://www.census.gov/geo/www/tiger</ordering>
+</stdorder>
+<techpreq>The TIGER/Line shapefiles contain geographic data only and do not include display mapping software or statistical data.  For information on how to use the TIGER/Line shapefile data with specific software package users shall contact the company that produced the software.</techpreq>
+</distinfo>
+<metainfo>
+<metd>20110207</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Products Branch</cntorg>
+<cntper>REQUIRED: The person responsible for the metadata information.</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>Mailing address</addrtype>
+<address>4600 Silver Hill Road, Stop 7400</address>
+<city>Washington</city>
+<state>DC</state>
+<postal>20233-7400</postal>
+<country>United States</country>
+</cntaddr>
+<cntvoice>301-763-1128</cntvoice>
+<cntfax>301-763-4710</cntfax>
+<cntemail>geo.tiger@census.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+<metextns>
+<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+<metprof>ESRI Metadata Profile</metprof>
+</metextns>
+</metainfo>
+</metadata>
