@@ -12,3 +12,13 @@ DATABASES = {
         "NAME": config['postgres']['database'],
     },
 }
+
+CACHES = {
+    'default': {
+        'BACKEND': 'redis_cache.RedisCache',
+        'LOCATION': '%s:%s' % (config['redis']['host'], config['redis']['port']),
+        'OPTIONS': {
+            'PASSWORD': config['redis']['password'],
+        },
+    },
+}
