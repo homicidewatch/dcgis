@@ -23,3 +23,5 @@ CACHES = {
         },
     },
 }
+
+CACHE_MIDDLEWARE_SECONDS = 1200
